@@ -282,4 +282,4 @@ with col2:
                     st.error(f"Qualification failed: {e}")
                     st.stop()
 
-                      st.success("Thanks — our team will review your request and follow up shortly.")
+            st.success("Thanks — our team will review your request and follow up shortly.")
