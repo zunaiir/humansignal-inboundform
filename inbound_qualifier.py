@@ -28,8 +28,7 @@ try:
 except Exception:
     HAS_GSHEETS = False
 
-
-ANTHROPIC_MODEL = os.environ.get("ANTHROPIC_MODEL", "claude-3-7-sonnet-latest")
+ANTHROPIC_MODEL = os.environ.get("ANTHROPIC_MODEL", "claude-sonnet-4-6")
 
 TECH_INDUSTRIES = {
     "software", "technology", "artificial intelligence", "ai", "machine learning",
